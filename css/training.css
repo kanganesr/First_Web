@@ -1,0 +1,772 @@
+/*CSS for leadership.html*/
+.backcolor{
+	background-color: lightgrey;
+}
+.training{
+margin-top: 6rem;
+}
+.first_training{
+	height: 350px;
+	left: 0;
+	
+    }
+.first_training h1{
+	text-align: center;
+	margin-top: 1.5rem;
+	font-family: 'Sanchez', serif;
+	font-family: bold;
+	font-size: 60px;
+	color: white;
+}
+.first_training p{
+	text-align: center;
+	font-size: 1.4rem;
+    color: white;
+    line-height: 1.4;
+    margin: 0.66rem 2rem 0px;
+    font-family: 'Sanchez', serif;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.second_training{
+	padding-left: 14rem;
+	padding-right: 8rem;
+	margin: -50px 0 100px 0;
+	
+}
+.training_new{
+	background-color: white;
+	height: 310px;
+	width: 800px;
+}
+.training_new h1{
+	text-align: center;
+	font-family: Sanchez, serif;
+	font-weight: normal;
+	padding: 10px 20px 20px 40px;
+	font-size: 38px !important;
+	word-break: keep-all;
+	color: black;
+}
+.training_new p{
+	text-align: left;
+	font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.8;
+    
+    font-family: Sanchez, serif;
+    padding: 0px 20px 20px 40px;
+    margin-top: 15px;
+    color: #77787b !important;
+}
+.field1{
+background-color: white;
+text-align: center;
+height: 420px;
+width: 580px;
+margin: 18% 0 0 0;
+padding: 40px 20px 40px 20px;
+border-radius: 0px;
+    border: none;
+    box-shadow: -12px 12px 38px 0 rgba(0,0,0,.25);
+
+}
+.fieldnew h2{
+	font-family: Sanchez, serif;
+	margin-top: 1.3rem;
+	font-size: 38px;
+	color: black;
+	font-weight: normal;
+	text-align: center;
+
+}
+.fieldnew p{
+	font-family: Sanchez, serif;
+	font-size: 1.2rem;
+	 line-height: 1.8;
+	 color: #77787b !important;
+	 text-align: center;
+
+}
+
+.imgnew img{
+	margin-top: 6rem; 
+    border: none;
+    background-size: contain;
+    background-position: left center;
+   padding: 5rem;
+    background-repeat: no-repeat;
+    padding: 17px 30px 40px 50px;
+
+}
+
+.rectone{
+padding: 190px;
+padding-top: 20px;
+}
+
+.rect{
+	background-color: white;
+	height: 330px;
+	margin: 8% 0 0 0;
+	border-radius: 0px;
+    border: none;
+    box-shadow: -12px 12px 38px 0 rgba(0,0,0,.25);
+    padding: 17px 20px 40px 50px;
+}
+
+.recttwo{
+	padding: 60px;
+	padding-top: 5px;
+}
+.rectsub{
+	background-color: rgba(255,127,1,1);
+  height: 180px;
+  text-align: left;
+  
+}
+.rectsub h2{
+	font-family: Sanchez, serif;
+	color: white;
+	margin-top: 1.7rem; 
+	padding-left: 50px;
+}
+.logoimgs h3{
+	font-family: Sanchez, serif;
+	color: black;
+	font-weight: normal;
+	font-size: 21px;
+	margin-top: 1.7rem;
+}
+.logonew p{
+	font-family:Sanchez, serif;
+	font-size: 16px;
+    color: #77787b !important;
+    margin-top: 15px;
+}
+.homeheadformat{
+	text-align: center;
+	font-family:Sanchez, serif;
+	font-size: 35px;
+	font-weight: normal;
+	color: black;
+}
+.skillcol{
+	position: relative;
+  width: 100%;
+  height:430px;
+  padding-right: -5px;
+  padding-left: 50px;
+  margin-top: -2.5rem;
+
+  -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    cursor: pointer
+}
+.skillcontainhead{
+	width: 90%;
+  padding-right: 10px;
+  padding-left: -5px;
+  margin-right:-10rem;
+  margin-left: 2.5rem ;
+
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.skillmargin{
+	margin-top: 10rem;
+}
+.skillbtn{
+	padding: 0px 0px 0px 680px;
+	margin-top: -5rem;
+}
+.skillbutton{
+	 width: fit-content;
+    margin: 20px auto;
+    color: #ffffff !important;
+    background-color: #000000 !important;
+    transition: 0.5s background-color;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 20px 100px;
+    appearance: none;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+
+    font-family: 'Sanchez', serif;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 22px;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+
+}
+.skillback{
+	background-color: #ddd;
+	height: 900px;
+	margin-top: 6rem;
+}
+.colbackleft{
+	float: left;
+  padding: 85px;
+  height: 700px;
+  width: 50%;
+  margin-top: 5rem;
+  background-color:#ddd;
+}
+.colbackleft h1{
+	font-family: 'Sanchez', serif;
+	padding-left: 15px;
+	font-size: 40px;
+	color: black;
+	font-weight: normal;
+}
+.colbackleft p{
+	font-family: sanchez,serif;
+  text-align: left;
+  color:rgb(0, 0, 0);
+  line-height: 1.8;
+  font-size: 23px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.colbackright{
+	float: left;
+  padding: 85px;
+  height: 700px;
+  width: 50%;
+  margin-top: 5rem;
+  background-color:#ddd;
+}
+.backrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+}
+
+/*CSS for home-new.html*/
+.firstsection{
+	background-color: white;
+	height:930px;
+}
+.secondsection{
+	background-color: #ddd;
+	height: 1100px;
+}
+.boxsection{
+	
+}
+
+.homecolumn{
+	float: left;
+   height: 260px;
+  width: 16.5%;
+  margin-top: 1rem;
+  background-color:#fff;
+  border-radius: 0px;
+   border: none;
+   cursor: pointer;
+    
+}
+.homecolumn img{
+	padding-top: 20px;
+	padding-left: 28px;
+
+}
+.homecolumn p{
+	font-family: Sanchez, serif;
+	text-align: center;
+	color: #000;
+	font-size: 17px;
+	padding-left: 15px;
+	font-weight: bold;
+}
+.home-newfirst{
+	background-color: white;
+	text-align: center;
+	height: 650px;
+	width: 580px;
+	margin: 20% 0 0 0;
+	padding: 40px 20px 40px 20px;
+	border-radius: 0px;
+    border: none;
+    box-shadow: -12px 12px 38px 0 rgba(0,0,0,.25);
+
+}
+
+.home-newsecond h2{
+	font-family: Sanchez, serif;
+	margin-top: 0.5rem;
+	font-size: 38px;
+	color: black;
+	font-weight: normal;
+	text-align: center;
+
+}
+.home-newsecond p{
+	font-family: Sanchez, serif;
+	font-size: 1.2rem;
+	 line-height: 1.8;
+	 color: #77787b !important;
+	 text-align: center;
+
+}
+
+.vedionew{
+	margin-top: 15rem; 
+    border: none;
+    background-size: contain;
+    background-position: left center; 	
+    background-repeat: no-repeat;
+    padding: 20px 30px 50px 80px;
+}
+.homebtn{
+	padding: 0px 0px 40px 45px;
+}
+.homesection{
+	padding-left: 9rem;
+	padding-right: 6rem;
+	margin: -50px 1rem 100px 0;
+	padding-top: 2rem;
+
+	
+}
+.newrowcol{
+	background-color: #fff;
+	height: 290px;
+	width: 1015px;
+	border-radius: 0px;
+    border: none;
+    box-shadow: -12px 12px 38px 0 rgba(0,0,0,.25);
+}
+
+.homesection2{
+	background-color: white;
+	height: 290px;
+	width: 1400px;
+	border-radius: 0px;
+    border: none;
+    box-shadow: -12px 12px 38px 0 rgba(0,0,0,.25);
+}
+
+
+.homenewbox{
+	background-color: white;
+	height: 440px;
+	width: 550px;
+	margin: -4.5% 0 0 0;
+	padding: 40px 20px 40px 40px;
+	border-radius: 0px;
+    border: none;
+    box-shadow: -12px 12px 38px 0 rgba(0,0,0,.25);
+}
+.homecontain{
+	padding-left: 55px;
+}
+
+.homenewsec h2{
+	font-family: Sanchez, serif;
+	margin-top: 0.5rem;
+	font-size: 38px;
+	color: black;
+	font-weight: normal;
+	text-align:left;
+
+}
+.homenewsec p{
+	font-family: Sanchez, serif;
+	font-size: 1.2rem;
+	 line-height: 1.8;
+	 color: #77787b !important;
+	 text-align:left;
+	 color: black;
+
+}
+.homesecbox{
+	background-color: white;
+	height: 540px;
+	width: 550px;
+	margin: -4.5% 0 0 -4%;
+	padding: 40px 20px 40px 40px;
+	border-radius: 0px;
+    border: none;
+    box-shadow: -12px 12px 38px 0 rgba(0,0,0,.25);
+
+}
+
+.findsubbtn{
+	
+    margin: 10px auto;
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    transition: 0.5s background-color;
+    border: 1px solid #dddddd;
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 5px 140px 5px;
+    appearance: none;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+
+    font-family: 'Sanchez', serif;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+.headhome{
+	background-color: white;
+	height: 400px;
+	width: 550px;
+	margin: -5% 0 0 0;
+	padding: 40px 20px 40px 5px;
+	border-radius: 0px;
+    border: none;
+   /* box-shadow: -12px 12px 38px 0 rgba(0,0,0,.25);*/
+}
+.homeheadnew h1{
+	font-family: Sanchez, serif;
+	margin-top: -1rem;
+	font-size: 38px;
+	color: black;
+	font-weight: normal;
+	text-align:left;
+}
+.homeheadnew p{
+	font-family: Sanchez, serif;
+	font-size: 1.2rem;
+	 line-height: 1.8;
+	 color: #77787b !important;
+	 text-align:left;
+	 color: black;
+}
+.headcontain{
+	padding-left: 40px;
+}
+.headhomebtn{
+	padding: 0px 0px 30px 100px;
+}
+
+.home_margin{
+	margin-top: 20rem;
+	}
+
+.homecontainhead{
+	 width: 105%;
+  padding-right: 6px;
+  padding-left: -5px;
+  margin-right:auto;
+  margin-left: -1rem ;
+
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.homecol1{
+position: relative;
+  width: 100%;
+  height:350px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    cursor: pointer
+}
+.homeshadow{ 
+  border: 1px solid #dddddd;
+    border-radius: 0px;
+}
+.homeheader h2{
+	text-align: center;
+	font-family:Sanchez, serif;
+	font-size: 40px;
+	font-weight: normal;
+	color: black;
+}
+.homeheader p{
+	text-align: center;
+	color: #77787b !important;
+	font-size: 20px;
+	font-weight: normal;
+	font-family:Sanchez, serif;
+}
+
+/*person.html*/
+.personone{
+	margin: 12rem;
+	text-align: center;
+}
+.personsub img{
+position:relative;
+}
+.personsub h1{
+	padding-top: 2rem;
+	font-family:Sanchez, serif;
+	font-size: 50px;
+	font-weight: normal;
+	color: black;
+}
+.personsub p{
+	text-align: center;
+	color: #000000 !important;
+	font-size: 20px;
+	font-weight: normal;
+	font-family:Sanchez, serif;
+}
+.pertraining{
+margin-top: -5rem;
+}
+.perfirst_training img{
+	height: 450px;
+	width: 100%;
+	left: 0;
+	padding-left: 150px;
+	padding-right: 150px;
+    }
+.perbox1{
+    padding-left: 14rem;
+	padding-right: 8rem;
+	margin: -90px 0 100px 0;
+}
+
+.perbox{
+	background-color: white;
+	height: 330px;
+	width: 800px;
+}
+.perbox h1{
+	text-align: center;
+	font-family: Sanchez, serif;
+	font-weight: normal;
+	padding: 10px 20px 20px 40px;
+	font-size: 40px !important;
+	word-break: keep-all;
+	color: black;
+
+
+}
+.perbox p{
+	text-align: left;
+	font-size: 1.3rem;
+    text-align: left;
+    line-height: 1.6;
+    
+    font-family: Sanchez, serif;
+    padding: 0px 20px 20px 40px;
+    margin-top: 15px;
+    color: #000 !important;
+}
+.columnleft{
+	float: left;
+  
+  height: 570px;
+  width: 25%;
+  margin-top: 5rem;
+  background-color:#fff;
+}
+.columnleft img{
+	
+	padding-left: 75px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.columnleft h3{
+	font-family: Sanchez, serif;
+	font-size: 20px;
+	color: #000;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.columnleft li{
+	color: #77787b !important;
+	font-size: 17px;
+	font-family: Sanchez, serif;
+	text-align: left;
+	padding-right: 15px;
+}
+
+/*CSS for live-online*/
+.liveone{
+	margin: 10rem;
+	margin-left: -0.2rem;
+	margin-right: -1rem;
+	text-align: center;
+	
+}
+
+.livesub h1{
+	padding-top: 2rem;
+	font-family:Sanchez, serif;
+	font-size: 52px;
+	font-weight: normal;
+	color: black;
+}
+.livesub p{
+	text-align:center;
+	margin-right: 2rem;
+	color: #000000 !important;
+	font-size: 20px;
+	font-weight: normal;
+	font-family:Sanchez, serif;
+}
+.liverow:after{
+content: "";
+  display: table;
+  clear: both;
+}
+.livecol{
+	float: left;
+  padding: 85px;
+  height: 570px;
+  width: 50%;
+  margin-top: 5rem;
+  background-color:#fff;
+}
+.livecol h2{
+	font-family:Sanchez, serif;
+	color: #000;
+	font-weight: normal;
+	text-align: left;
+	font-size: 40px;
+}
+.livecol p{
+	font-family:Sanchez, serif;
+	margin-left: -1rem;
+	font-size: 20px;
+	line-height: 1.6;
+	color: black;
+	text-align: left;
+	margin-left: 0.2rem;
+	color: #77787b !important;
+}
+.livecolright{
+	float: left;
+  padding: 85px;
+  height: 570px;
+  width: 50%;
+  margin-top: 5rem;
+  background-color:#fff;
+}
+.livevideo{
+	margin-top: -2.8rem; 
+    border: none;
+    background-size: contain;
+    background-position: left center; 	
+    background-repeat: no-repeat;
+    padding: 20px 30px 50px 30px;
+}
+.livecolright h2{
+font-family:Sanchez, serif;
+margin-top: -3rem;
+font-weight: normal;
+color: black;
+}
+.livecolright li{
+	font-family:Sanchez, serif;
+	margin-left: -1rem;
+	font-size: 20px;
+	line-height: 1.6;
+	color: black;
+}
+.livemain h1{
+	font-family:Sanchez, serif;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: -3.5rem;
+	
+	
+}
+.livecolrightano{
+	float: left;
+  padding: 85px;
+  height: 570px;
+  width: 50%;
+  margin-top: 5rem;
+  background-color:#fff;
+}
+.livecolrightano h2{
+font-family:Sanchez, serif;
+margin-top: -1rem;
+font-weight: normal;
+color: black;
+}
+.livecolrightano li{
+font-family:Sanchez, serif;
+	margin-left: -1rem;
+	font-size: 20px;
+	line-height: 1.6;
+	color: blue;
+}
+.livecolsub{
+	float: left;
+  padding: 85px;
+  height: 570px;
+  width: 50%;
+  margin-top: -4rem;
+  background-color:#fff;
+}
+.livecolsub h2{
+	font-family:Sanchez, serif;
+	color: #000;
+	font-weight: normal;
+	text-align: left;
+	font-size: 40px;
+}
+.livecolsub p{
+	font-family:Sanchez, serif;
+	margin-left: -1rem;
+	font-size: 20px;
+	line-height: 1.6;
+	color: black;
+	text-align: left;
+	margin-left: 0.2rem;
+	color: #77787b !important;
+}
+.livecolon{
+	float: left;
+  padding: 85px;
+  height: 570px;
+  width: 50%;
+  margin-top: -4rem;
+  background-color:#fff;
+}

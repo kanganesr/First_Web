@@ -448,11 +448,11 @@ pre {
 
 .container {
   width: 90%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto; }
-  @media (min-width: 500px) {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: 5rem;
+  margin-left: 5rem; }
+ @media (min-width: 500px) {
     .container {
       max-width: 380px; } }
   @media (min-width: 580px) {
@@ -463,8 +463,8 @@ pre {
       max-width: 750px; } }
   @media (min-width: 980px) {
     .container {
-      max-width: 1000px; } }
-
+      max-width: 1000px; }
+   }
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -487,8 +487,9 @@ pre {
   margin-left: 0; }
   .no-gutters > .col,
   .no-gutters > [class*="col-"] {
-    padding-right: 20px;
-    padding-left: 20px; }
+    padding-right: 0px;
+    padding-left: 0px; 
+    text-align: center;}
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
@@ -498,8 +499,9 @@ pre {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 55px;
-  padding-left: 15px; }
+  height: 220px;
+  padding-right: 30px;
+  padding-left: 10px; }
 
 .col {
   -ms-flex-preferred-size: 0;
@@ -8584,12 +8586,12 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #3e64ff;
-    border: 1px solid #3e64ff !important;
-    color: #fff !important; }
+    background: rgb(28, 182, 180);
+    border: 1px solid  rgb(28, 182, 180) !important;
+    color: white !important; }
     .btn.btn-primary:hover {
       border: 1px solid #3e64ff !important;
-      background: #3e64ff !important;
+      background: white !important;
       color: #000000 !important; }
     .btn.btn-primary.btn-outline-primary {
       border: 2px solid #3e64ff !important;
@@ -8640,7 +8642,8 @@ h1, h2, h3, h4, h5,
     display: block;
     width: 100%;
     position: relative;
-    z-index: 1; }
+    z-index: 1;
+     }
 
 .ftco-about ul.about-info {
   display: inline-block;
@@ -9069,6 +9072,7 @@ textarea.form-control {
 .ftco-section {
   padding: 7em 0;
   position: relative;
+  margin-top: 6rem;
   }
 
   @media (max-width: 767.98px) {
@@ -9260,7 +9264,7 @@ textarea.form-control {
 
 .ftco-counter .block-18 {
   display: block;
-  width: 100%;
+  width: 150%;
   text-align: center;
   padding: 30px 20px; }
 

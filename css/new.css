@@ -34,13 +34,352 @@ hr.new {
  border-top: 1px solid black;
 }
 header {
-  background-color: #666;
+  background-color: lightblue;
   padding: 30px;
   text-align: center;
   font-size: 35px;
   color: white;
+  height: 150px;
 }
-.box{
+.box-person {
 	padding: 55px;
-	height: 250px;
+}
+.box-person h2{
+	text-align: left;
+	padding-left: 60px;
+	padding-top: 20px;
+	font-size: 30px;
+	
+
+}
+.format{
+	background-color: #ddd;
+
+}
+
+
+.form{
+	position: relative;
+  width: 50%;
+  padding-right: 55px;
+  padding-left: 15px;
+
+  
+    -webkit-box-ordinal-group: 14;
+    -ms-flex-order: 13;
+    order: 13; 
+   
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important; 
+}
+
+.form_new{
+
+  background: #f8f9fa !important; 
+  padding: 1.5rem !important;
+  padding: 3rem !important;
+
+}
+
+.button1{
+	display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
+  @media (prefers-reduced-motion: reduce) {
+    .btn {
+      -webkit-transition: none;
+      -o-transition: none;
+      transition: none; } }
+  .btn:hover {
+    color: #212529;
+    text-decoration: none; }
+  .btn:focus, .btn.focus {
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+  .btn.disabled, .btn:disabled {
+    opacity: 0.65; }
+
+
+ /*CSS for find-course.html*/
+.boxfind{
+margin-top: 6rem;}
+.first{
+	height: 300px;
+	background-color:#7d7ebe;;
+}
+.first h1{
+	text-align: center;
+	margin-top: 1.3rem;
+	font-family: 'Sanchez', serif;
+	font-family: normal;
+}
+.first h5{
+	text-align: center;
+	font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    line-height: 1.4;
+    margin: 0.66rem 2rem 0px;
+    font-family: Sanchez, serif;
+}
+
+.first-find{
+	padding-left: 2px;
+}
+.second{
+	background-color: black;
+	height: 100px;
+}
+.second h3{
+	color: white;
+	font-family: 'Sanchez', serif;
+	font-family: normal;
+text-align: left;
+padding-bottom: 100px;
+	padding-left: 60px;
+	padding-top: 30px;
+  padding-right: 0px;
+  font-size: 30px;
+	
+
+}
+#findnavi {
+  top: 180px;
+  position: -webkit-sticky;
+  position: sticky;
+  margin: 0; }
+  #findnavi p{
+
+  }
+  #findnavi ul {
+    margin: 0;
+    padding: 0; }
+  #findnavi li {
+    font-weight: normal;
+    list-style: none;
+    margin-bottom: 10px; }
+    #findnavi li a {
+      color: #000000; }
+      #findnavi li a.current {
+        color: #3e64ff;
+        margin-left: 20px;
+        position: relative; }
+        #findnavi li a.current:after {
+          position: absolute;
+          top: 50%;
+          left: -24px;
+          width: 20px;
+          height: 2px;
+          content: '';
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          background: #3e64ff; 
+  }
+  .findcoursebox{
+     margin-left: -10rem;
+    background-color:rgb(243, 243, 243);
+  height: 150px;
+  width: 850px;
+  border-radius: 0px;
+    border: none;
+    box-shadow: -12px 12px 38px 0 rgba(0,0,0,.25);
+  }
+  .findcontainer{
+    padding-left: 40px;
+    margin-top: -6.5rem;
+  }
+  .findcol{
+   padding-left: 150px;
+
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  }
+  /*CSS for find-office.html*/
+  .newsecond{
+  padding-left: 10rem;
+  padding-right: 8rem;
+  margin: -70px 0 100px 0;
+}
+.findtrain{
+
+  background-color: white;
+  height: 310px;
+  width: 950px;
+}
+.findsmallbox{
+margin: 22rem 0 100px 0;
+padding-left: 10rem;
+padding-right: 6rem;
+}
+.subsmallbox{
+   margin: 20px auto;
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    transition: 0.5s background-color;
+    border: 1px solid #dddddd;
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 25px 60px;
+    appearance: none;
+    cursor: pointer;
+    text-align: start;
+    outline: none;
+
+    font-family: 'Sanchez', serif;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 31px;
+    font-weight: bold;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+  
+  height: 100px;
+  width: 940px;
+  box-shadow: -12px 12px 38px 0 rgba(0,0,0,.25);
+}
+
+  /*CSS for view-webinar.html*/
+  .homefind{
+    margin-top: 12rem;
+  }
+  .findsec h1{
+    font-family: sanchez,serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+  }
+  .findtraining{
+     margin-top: 6rem;
+  }
+  .findfirst{
+    height: 350px;
+  left: 0;
+  }
+
+.findsecond{
+margin-top: 10rem;
+}
+.findsecbox h3{
+  font-family: sanchez,serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.2;
+    color: black;
+}
+.findsecbox p{
+  font-family: sanchez,serif;
+  text-align: center;
+  color:rgb(0, 0, 0);
+  line-height: 1.4;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.findhomebtn{
+ text-align: center;
+  }
+.findcolumnleft{
+  float: left;
+  padding: 85px;
+  height: 300px;
+  width: 25%;
+  margin-top: 5rem;
+}
+.findcolumnright{
+  float: left;
+  padding: 10px;
+  height: 300px;
+  width: 75%;
+  margin-top: 5rem;
+}
+* {
+  box-sizing: border-box;
+}
+.findrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.findcolumnright h2{
+font-family: sanchez,serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1.2;
+    color: black;
+}
+.findcolumnright p{
+  font-family: sanchez,serif;
+  text-align: left;
+  color:rgb(0, 0, 0);
+  line-height: 1.6;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+
+/*CSS for homenew*/
+.homenew{
+	margin-right: 3rem;
+}
+.homenext h1{
+	font-size: 25px;
+	font-family: sanchez,serif;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+.findbutton{
+	   width: fit-content;
+    margin: 20px auto;
+    color: #ffffff !important;
+    background-color: #000000 !important;
+    transition: 0.5s background-color;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 20px 60px;
+    appearance: none;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+
+    font-family: 'Sanchez', serif;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
 }
